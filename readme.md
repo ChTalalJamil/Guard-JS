@@ -1,10 +1,10 @@
 # Guard.js - Boost Your Web App Security
 
-Sniff-Block.js is a simple JavaScript library that strengthens your web application's security by preventing actions like copy-pasting, right-clicking, and the use of developer tools.
+Guard.js is a simple JavaScript library that strengthens your web application's security by preventing actions like copy-pasting, right-clicking, and the use of developer tools.
 
-## How Sniff-Block.js Works
+## How Guard.js Works
 
-Sniff-Block.js uses event listeners to block unwanted actions and detect the use of developer tools:
+Guard.js uses event listeners to block unwanted actions and detect the use of developer tools:
 
 ### 1. **Disable Copy-Paste:**
    - Stops users from copying or pasting content within specific elements by listening for events like `mousedown`, `selectstart`, `copy`, and more.
@@ -19,7 +19,7 @@ Sniff-Block.js uses event listeners to block unwanted actions and detect the use
 ### 4. **Disable Developer Tools Shortcut:**
    - Listens for the specific key combination (Ctrl+Shift+I or Cmd+Option+I) used to open developer tools and prevents it.
 
-## What Sniff-Block.js Does
+## What Guard.js Does
 
 ### 1. **Enhanced Content Security:**
    - Protects sensitive information by stopping copy-pasting within specific elements.
@@ -35,7 +35,7 @@ Sniff-Block.js uses event listeners to block unwanted actions and detect the use
 
 ## Usage
 
-Integrating Sniff-Block.js into your web app is easy. Just include the script in your HTML file:
+Integrating Guard.js into your web app is easy. Just include the script in your HTML file:
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/chtalaljamil/guard-js/guard.js"></script>
@@ -45,7 +45,7 @@ The script will automatically run, applying security measures to the entire docu
 
 ## Compatibility
 
-Sniff-Block.js works smoothly on various browsers, tested and verified for modern web browsers.
+Guard.js works smoothly on various browsers, tested and verified for modern web browsers.
 
 ## License
 
