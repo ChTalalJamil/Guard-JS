@@ -19,7 +19,7 @@
     function detectDevTool(allow) {
         allow = isNaN(+allow) ? 100 : +allow;
         var start = +new Date();
-        // debugger;
+        alert("you need to close dev tools and you can'not use your site");
         eval("debugger");
         var end = +new Date();
         if (isNaN(start) || isNaN(end) || end - start > allow) {
